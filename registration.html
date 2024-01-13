@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="css/style-register.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Register</h2>
+    <form action="https://script.google.com/macros/s/AKfycbyZCsL6wt9wwR9V6H8MnL7dWjojo4hIrsC2flvAKALYh2O-icW1teSRW4Re5f2SGBBXyQ/exec" method="post" name="contact-form">
+  <input type="tel" id="registerMobileNumber" placeholder="Enter your mobile number" style="margin-bottom:5px ;" name="mobile_no."><br>
+  <button onclick="sendOTP()">Get OTP</button>
+  <input type="text" id="registerOTP" placeholder="Enter OTP"><br>
+  <input type="text" id="aadharNumber" placeholder="Enter Aadhar number" name="adhar"><br>
+  <input type="text" id="bankAccountNumber" placeholder="Enter bank account number" name="account no."><br>
+  <input type="number" id="age" placeholder="Enter your age" style="margin-bottom: 5px;" name="age"><br>
+      <button onclick="register()" type="submit"><input type="submit" value="Submit" id="submit"></button>
+    <p>Already have an account? <a href="index.html">Login here</a></p>
+  </div>
+</form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/registration.js"></script>
+</body>
+</html>
